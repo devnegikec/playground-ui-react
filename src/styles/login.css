@@ -1,0 +1,91 @@
+.input-lg {
+	background-color: #F8F8F8;
+}
+#signUpLink , #logInLink{
+    color:blue;
+    font-size:12px;
+    padding-right:30px;
+    margin: 10px;
+}
+/* @group Blink */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+#fbLoginIcon{
+width:90px; height:30px;
+}
+#fbSgUPLink{
+text-align: right;
+padding: 6px;
+}
+.para1{
+font-size:16px;
+}
+#joinMessage{
+color:blue; font-size:26px;
+}
+#signUPIntermediate{
+padding:30px;
+}
+.tab-content{
+padding-left: 20px;
+}
+#fbIcon{
+color:#87CEEB;
+padding-right:20px;
+margin-right:20px;
+border-right: 2px solid black; 
+font-size: 36px;
+}
+#fbIconBtn{
+height:70px;
+}
+#signUpContent{
+font-size:16px;
+}
+#signUpAlreadyMade{
+text-align: right;padding: 6px;
+}
+#newLine{
+display:none;
+}
+	@media only screen and (max-width: 768px) {
+  #signUpContent{
+	font-size:11px;
+	}
+}
+a#signUpLink { cursor: pointer; }
